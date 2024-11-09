@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#noteform{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#notesContainer{
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #e96363;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.note button {
+    margin-left: 5px;
+}
