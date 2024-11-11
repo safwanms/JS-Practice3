@@ -103,9 +103,9 @@ const number = new Promise((resolve, reject) => {
 
 // Handling The promise
 //checkNumber.then((message)=> {
-    //console.log('then', message);
+  //  console.log('then', message);
 //}).catch((error) => {
-    //console.log('Error', error); 
+   // console.log('Error', error); 
 //});
 
 // Function that returns a promise based on the value of input number
